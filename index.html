@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RESPONSIVE WEB LAYOUT</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+                <a href="#">HEXASHOP</a>
+            </div>
+            <ul class="nav-links" id="nav-links">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Men's</a></li>
+                <li><a href="#">Women's</a></li>
+                <li><a href="#">Kid's</a></li>
+                <li><a href="#">Pages</a></li>
+                <li><a href="#">Features</a></li>
+                <li><a href="#">Explore</a></li>
+            </ul>
+            <div class="menu-button" onclick="toggleMenu()">
+                <svg xmlns="http://www.w3.org/2000/svg" height="30" width="30" viewBox="0 96 960 960">
+                    <path d="M120 816v-60h720v60H120Zm0-210v-60h720v60H120Zm0-210v-60h720v60H120Z" />
+                </svg>
+            </div>
+
+        </nav>
+
+        <div class="hero">
+            <div class="hero-left">
+                <img src="images/img1.webp" alt="">
+            </div>
+
+            <div class="hero-right">
+                <div class="hero-right-upper">
+                    <div class="hero-image" >
+                        <img src="images/img2.webp" alt="">
+                    </div>
+                    <div class="hero-image">
+                        <img src="images/img3.webp" alt="">
+                    </div>
+                </div >
+
+                <div class="hero-right-lower">
+                    <div class="hero-image">
+                        <img src="images/img4.webp" alt="">
+                    </div>
+                    <div class="hero-image">
+                        <img src="images/img5.webp" alt="">
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="mens">
+        <h1>Men's Latest</h1>
+        <div class="cards">
+            <div class="card">
+                <img src="images/img6.webp" alt="">
+            </div>
+            <div class="card">
+                <img src="images/img7.webp" alt="">
+            </div>
+            <div class="card">
+                <img src="images/img8.webp" alt="">
+            </div>
+        </div>
+        </div>
+
+         <div class="mens">
+        <h1>Women's Latest</h1>
+        <div class="cards">
+            <div class="card">
+                <img src="images/img9.webp" alt="">
+            </div>
+            <div class="card">
+                <img src="images/img10.jpg" alt="">
+            </div>
+            <div class="card">
+                <img src="images/img11.webp" alt="">
+            </div>
+        </div>
+        </div>
+
+         <div class="mens">
+        <h1>Kid's Latest</h1>
+        <div class="cards">
+            <div class="card">
+                <img src="images/img12.webp" alt="">
+            </div>
+            <div class="card">
+                <img src="images/img13.webp" alt="">
+            </div>
+            <div class="card">
+                <img src="images/img14.jpg" alt="">
+            </div>
+        </div>
+        </div>
+
+
+    </main>
+
+    <!-- Social Media Section -->
+  <section class="social-media">
+    <div class="container">
+      <h2>Social Media</h2>
+      <p>Details to details is what makes Hexashop different from the other themes.</p>
+      <div class="images">
+          <img src="images/img1.webp" alt="">
+          <img src="images/img2.webp" alt="">
+        <img src="images/img3.webp" alt="">
+        <img src="images/img4.webp" alt="">
+        <img src="images/img7.webp" alt="">
+      </div>
+    </div>
+  </section>
+
+  <!-- Newsletter Section -->
+  <section class="newsletter">
+    <div class="container">
+      <div class="newsletter-text">
+        <h3>By Subscribing To Our Newsletter You Can Get 30% Off</h3>
+        <p>Details to details is what makes Hexashop different from the other themes.</p>
+        <form>
+          <input type="text" placeholder="Your Name">
+          <input type="email" placeholder="Your Email Address">
+          <button type="submit"><i class="fas fa-paper-plane"></i></button>
+        </form>
+      </div>
+      <div class="newsletter-info">
+        <div><strong>Store Location:</strong><br>Sunny Isles Beach, FL 33160, United States</div>
+        <div><strong>Work Hours:</strong><br>07:30 AM - 9:30 PM Daily</div>
+        <div><strong>Email:</strong><br>info@hexashop.com</div>
+        <div><strong>Office Location:</strong><br>North Miami Beach</div>
+        <div><strong>Social Media:</strong><br>Facebook, Instagram, Behance, LinkedIn</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer-content">
+      <div class="footer-col">
+        <h3>HEXASHOP</h3>
+        <p>16501 Collins Ave, Sunny Isles Beach, FL 33160, United States</p>
+        <p>hexashop@company.com</p>
+        <p>010-020-0340</p>
+      </div>
+      <div class="footer-col">
+        <h4>Shopping & Categories</h4>
+        <ul>
+          <li>Men’s Shopping</li>
+          <li>Women’s Shopping</li>
+          <li>Kid’s Shopping</li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Useful Links</h4>
+        <ul>
+          <li>Homepage</li>
+          <li>About Us</li>
+          <li>Help</li>
+          <li>Contact Us</li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Help & Information</h4>
+        <ul>
+          <li>Help</li>
+          <li>FAQ’s</li>
+          <li>Shipping</li>
+          <li>Tracking ID</li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>Copyright © 2022 HexaShop Co., Ltd. All Rights Reserved.</p>
+      <div class="social-icons">
+        <a href="#"><i class="fab fa-facebook-f"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+      </div>
+    </div>
+  </footer>
+
+
+
+
+
+    <script>
+        function toggleMenu() {
+            const menu = document.getElementById("nav-links");
+            menu.classList.toggle("active");
+        }
+    </script>
+</body>
+
+</html>
